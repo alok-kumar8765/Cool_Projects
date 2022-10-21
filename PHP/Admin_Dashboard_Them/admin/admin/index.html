@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SIC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/k.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+    $('#memberModal').modal('show');
+
+});
+</script>
+</head>
+<body>
+ 
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+	  <div class="navbar-header">
+			<button type="button" class="navbar-toggle navbar-toggle-sidebar collapsed">
+			MENU
+			</button>
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#" style="font-size:24px">
+				Student	Information	Center	</a>		</div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav navbar-right">
+<li class="dropdown ">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Settings
+<span class="caret"></span></a>
+<ul class="dropdown-menu" role="menu">
+<li class="dropdown-header">Settings</li>
+<li class=""><a href="http://www.inu.edu.pk/sic/main_login.php#">Other Link</a></li>
+<li class="divider"></li>
+<li><a href="http://www.inu.edu.pk/sic/logout.php">Logout</a></li>
+			</ul>
+		</li>
+	</ul>
+	  </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+	</nav>
+
+  <!-- Modal -->
+<div class="modal fade" id="memberModal" tabindex="-1" role="dialog" aria-labelledby="memberModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog" >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
+                </button>
+                 <p>Date: Tuesday, February 09, 2016 </p>
+<h4 class="modal-title" id="memberModalLabel">FINAL RESULT FOR FALL-15 ANNOUNCED</h4>
+
+            </div>
+            <div class="modal-body">
+                <p>Result for Final Exam Fall-15 has been updated. Kindly check your final result. Still teacher are submitting their results so check it later.</p>
+<p></p>
+<br>
+<br>
+<br>
+<p>
+</p><h4>Manager IT &amp; Development </h4><p></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+   	 
+   	<div class="container-fluid main-container">
+	
+	
+		<div class="col-md-8 content" style="margin-left:100px">
+  			  <div class="panel panel-default">
+	<div class="panel-heading" style="background-color:#c4e17f">
+		<h1>Welcome  </h1></div>
+	<div class="panel-body">
+		<h3>ID:&nbsp;5493</h3>
+		<h3>Name:&nbsp; ABBAS AHMAD</h3>
+	</div>
+</div>
+</div>
+	
+  		<div class="col-md-2 sidebar" style="margin-left:50px">
+  			<div class="row">
+	<!-- uncomment code for absolute positioning tweek see top comment in css -->
+	<div class="absolute-wrapper"> </div>
+	<!-- Menu -->
+	<div class="side-menu">
+		<nav class="navbar navbar-default" role="navigation">
+			<!-- Main Menu -->
+			<div class="side-menu-container">
+			  <ul class="nav navbar-nav">
+					<li class="active"><a href="http://www.inu.edu.pk/sic/main_login.php"><span class="glyphicon  glyphicon-home"></span> Dashboard</a></li>
+
+
+					<li><a href="#"><span class="glyphicon glyphicon-time"></span>Timetable</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-save"></span>Download Lectures</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-pencil"></span><span class="label label-danger">NEW</span>&nbsp;Teacher Assessment</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-calendar"></span>Datesheet</a></li>
+<li><a href="#"> <span class="glyphicon glyphicon-share-alt"></span>Midterm</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-share-alt"></span>Final Term</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-share"></span>Transcript</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-check"></span>Attendance</a></li>
+<li><a href="#"><span class="glyphicon glyphicon-pencil"></span>Feedback </a></li>
+					<!-- Dropdown-->
+				<!-- Dropdown level 1 -->
+<li><a href="#"><span class="glyphicon glyphicon-off"></span> Logout </a></li>
+			  </ul>
+		  </div><!-- /.navbar-collapse -->
+		</nav>
+
+	</div>
+</div></div>
+
+<script type="text/javascript">
+$(function () {
+  	$('.navbar-toggle-sidebar').click(function () {
+  		$('.navbar-nav').toggleClass('slide-in');
+  		$('.side-body').toggleClass('body-slide-in');
+  		$('#search').removeClass('in').addClass('collapse').slideUp(200);
+  	});
+
+  	$('#search-trigger').click(function () {
+  		$('.navbar-nav').removeClass('slide-in');
+  		$('.side-body').removeClass('body-slide-in');
+  		$('.search-input').focus();
+  	});
+  });
+</script>
+</body></html>
