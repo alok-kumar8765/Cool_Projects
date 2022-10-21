@@ -1,0 +1,11 @@
+asgiref==3.5.2
+backports.zoneinfo==0.2.1
+Django==4.1.2
+image==1.5.33
+imageio==2.22.2
+numpy==1.23.4
+opencv-python==4.6.0.66
+Pillow==9.2.0
+six==1.16.0
+sqlparse==0.4.3
+tzdata==2022.5
